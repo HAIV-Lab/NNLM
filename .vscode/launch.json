@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",
+            },
+            // "args":[
+            //     "/data/zqh/NLP/adaptive-knn-mt/store/data/multi-domain/koran/data-bin",
+            //     "--gen-subset", "test",
+            //     "--path", "/data/zqh/NLP/adaptive-knn-mt/store/checkpoints/koran_1/checkpoint.best_loss_0.91.pt",
+            //     "--arch", "transformer_wmt19_de_en_with_datastore",
+            //     "--beam", "4", "--lenpen", "0.6", "--max-len-a", "1.2", "--max-len-b", "10",
+            //     "--source-lang", "de", "--target-lang", "en",
+            //     "--scoring", "sacrebleu",
+            //     "--batch-size", "8",
+            //     "--tokenizer", "moses", "--remove-bpe",
+                
+            // ]
+
+            // "args": [
+            //     "/data/zqh/adaptive-knn-mt/store/data/multi-domain/koran/data-bin",
+            //     "--log-interval", "100", "--log-format", "simple",
+            //     "--arch", "transformer_wmt19_de_en_with_datastore",
+            //     "--restore-file", "/data/zqh/adaptive-knn-mt/store/checkpoint.best_loss_2.50.pt",
+            //     "--save-dir", "/data/zqh/adaptive-knn-mt/store/checkpoints/koran",
+            //     "--reset-dataloader", "--reset-lr-scheduler", "--reset-meters", "--reset-optimizer",
+            //     "--validate-interval-updates", "100", "--save-interval-updates", "100",
+            //     "--keep-interval-updates", "1", "--max-update", "5000",
+            //     "--validate-after-updates", "1000", "--source-lang", "de", "--target-lang", "en",
+            //     "--save-interval", "10000", "--validate-interval", "100",
+            //     "--keep-best-checkpoints", "1", "--no-epoch-checkpoints",
+            //     "--no-last-checkpoints", "--no-save-optimizer-state",
+            //     "--train-subset", "valid", "--valid-subset", "valid",
+            //     "--max-source-positions", "1024", "--max-target-positions", "1024",
+            //     "--task", "translation", "--optimizer", "adam", "--adam-betas", "(0.9, 0.98)", "--adam-eps", "1e-08",
+            //     "--min-lr", "3e-05", "--lr", "0.0003", "--clip-norm", "1.0",
+            //     "--lr-scheduler", "reduce_lr_on_plateau", "--lr-patience", "5", "--lr-shrink", "0.5",
+            //     "--patience", "10", "--max-epoch", "50",
+            //     "--batch-size", "8", "--update-freq", "1", "--batch-size-valid", "8",
+            //     "--load-knn-datastore", "--use-knn-datastore",
+            //     "--dstore-filename", "/data/zqh/adaptive-knn-mt/store/datastore/koran",
+            //     "--dstore-fp16", "--dstore-size", "523307", "--probe", "32",
+            //     "--knn-sim-func", "do_not_recomp_l2",
+            //     "--use-gpu-to-search", "--move-dstore-to-mem",
+            //     "--knn-lambda-type", "trainable", "--knn-temperature-type", "fix",
+            //     "--knn-temperature-value", "10", "--only-train-knn-parameter",
+            //     "--knn-k-type", "trainable", "--k-lambda-net-hid-size", "32", "--k-lambda-net-dropout-rate", "0.0",
+            //     "--max-k", "16", "--k", "16", "--label-count-as-feature",
+            // ]
+        }
+    ]
+}
