@@ -7,7 +7,6 @@ Please cite our paper if you find this repository helpful in your research:
 @inproceedings{zhouxiang-lightweight-ccmt-2024,
     title = "A Data-Efficient Nearest-Neighbor Language Model via Lightweight Nets",
     author = "Qinhao Zhou, Xiang Xiang, Yuqi Zhang",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
     month = Nov,
     year = "2024",
 }
