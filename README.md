@@ -1,4 +1,4 @@
-# Light weight Network kNN-MT
+# A Data-Efficient Nearest-Neighbor Language Model via Lightweight Nets
 
 Code for our CCMT 2024 paper "Adaptive Nearest Neighbor Machine Translation". 
 Please cite our paper if you find this repository helpful in your research:
