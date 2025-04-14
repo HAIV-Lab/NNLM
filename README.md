@@ -5,8 +5,8 @@
     <a href='https://scholar.google.com.hk/citations?hl=zh-CN&user=-D5k5ioAAAAJ&view_op=list_works' target='_blank'>Xiang Xiang</a><sup>1</sup>&emsp;
     <a href='' target='_blank'>Ke Wang</a><sup>2</sup>&emsp;
     <a href='' target='_blank'>Yuqi Zhang</a><sup>3</sup>&emsp;
-    <a href='' target='_blank'>Yuchuan Wu</a><sup>3</sup>&emsp;
-    <a href='' target='_blank'>Yongbin Li</a><sup>3</sup>&emsp;
+    <a href='' target='_blank'>Yuchuan Wu</a><sup>2</sup>&emsp;
+    <a href='' target='_blank'>Yongbin Li</a><sup>2</sup>&emsp;
 </div>
 <div>
 <sup>1</sup>School of Artificial Intelligence and Automation, Huazhong University of Science and Technology&emsp;
