@@ -9,7 +9,7 @@
     <a href='' target='_blank'>Yongbin Li</a><sup>2</sup>&emsp;
 </div>
 <div>
-<sup>1</sup>School of Artificial Intelligence and Automation, Huazhong University of Science and Technology&emsp;
+<sup>1</sup>Huazhong University of Science and Technology&emsp;
 
 <sup>2</sup>Alibaba Group&emsp;
 
@@ -19,7 +19,7 @@
 </div>
 
 
-Code for our CCMT 2024 paper "A Data-Efficient Nearest-Neighbor Language Model via Lightweight Nets". 
+Official code repository for our CCMT 2024 paper "A Data-Efficient Nearest-Neighbor Language Model via Lightweight Nets". 
 Please cite our paper if you find this repository helpful in your research:
 
 ```
